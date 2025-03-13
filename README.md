@@ -9,3 +9,5 @@ java -jar agent.jar -jnlpUrl http://<jenkins-master-url>:8080/computer/<agent-na
 
 
 java -jar agent.jar -jnlpUrl http://localhost:8080/computer/dhruv_win/slave-agent.jnlp -secret baf08f87d26c48afe9c0a03a06cce4900711f9d7320380aee95efc0342abe5a1 -name "dhruv_win" -workDir "C:\jenkins"
+
+java -jar agent.jar -jnlpUrl file:///C:/jenkins/slave-agent.jnlp -secret baf08f87d26c48afe9c0a03a06cce4900711f9d7320380aee95efc0342abe5a1 -workDir "C:\jenkins"
